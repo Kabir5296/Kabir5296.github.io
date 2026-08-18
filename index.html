@@ -24,8 +24,7 @@
       document.documentElement.classList.add('js');
       try {
         const savedTheme = localStorage.getItem('kabir-theme');
-        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        document.documentElement.dataset.theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+        document.documentElement.dataset.theme = savedTheme || 'light';
       } catch (error) {
         document.documentElement.dataset.theme = 'light';
       }
