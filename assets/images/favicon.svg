@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="K">
+  <defs>
+    <mask id="ring-mask">
+      <rect width="64" height="64" fill="#000"/>
+      <circle cx="32" cy="32" r="30" fill="#fff"/>
+      <circle cx="32" cy="32" r="23" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="64" height="64" fill="#fff" mask="url(#ring-mask)"/>
+  <path d="M17.5 16h7v13l12-13h9L32 30.2 46.5 48h-9L27.2 35.1 24.5 38v10h-7z" fill="#fff"/>
+</svg>

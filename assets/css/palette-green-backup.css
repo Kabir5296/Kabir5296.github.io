@@ -1,0 +1,34 @@
+/*
+ * Archived original green palette.
+ * This file is intentionally not linked by the live website.
+ */
+
+:root {
+  color-scheme: light;
+  --paper: #f5f6f1;
+  --surface: #ffffff;
+  --ink: #15231f;
+  --ink-soft: #5d6a65;
+  --line: #d7ddd6;
+  --line-strong: #bdc9c1;
+  --spruce: #173b35;
+  --spruce-deep: #0d2925;
+  --mint: #bde4d3;
+  --accent: #b45525;
+  --header-bg: #f5f6f1;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #0e1715;
+  --surface: #16231f;
+  --ink: #eef5f1;
+  --ink-soft: #aabbb4;
+  --line: #2b3d37;
+  --line-strong: #42574f;
+  --spruce: #0b2723;
+  --spruce-deep: #071c19;
+  --mint: #a7d9c5;
+  --accent: #f0a56e;
+  --header-bg: #0e1715;
+}
